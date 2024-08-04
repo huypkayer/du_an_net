@@ -1,0 +1,41 @@
+.nike {
+    margin-top: 50px;
+  }
+  .nike_listitem:hover{
+    border: 1px solid black;
+  }
+  .listnike {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 1200px;
+    max-width: calc(100%-40px);
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  .nike_listitem {
+  
+  }
+  .nike_link {
+  }
+  
+  .nike_img {
+    /* width: 256px; */
+    height: 256px;
+  }
+  
+  .nike_buy {
+    display: block;
+    margin-top: 30px;
+    color: red;
+  }
+  .nike_content a:first-child {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: black;
+  }
+  .nike_content a:first-child:hover {
+    color: #fed700;
+    cursor: pointer;
+  }

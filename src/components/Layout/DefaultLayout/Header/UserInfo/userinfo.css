@@ -1,0 +1,52 @@
+.user-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-info .avatar_icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.user-info .account_text {
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.user-info .button-group {
+  position: absolute;
+  bottom: -30px;
+  left: 0;
+  display: flex;
+  gap: 10px;
+}
+
+.user-info .button-group button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.user-info:hover .button-group button {
+  display: block;
+}
+
+.user-info .account_text:hover,
+.user-info .avatar_icon:hover {
+  color: #007bff;
+}

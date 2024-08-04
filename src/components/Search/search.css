@@ -1,0 +1,48 @@
+/* Form */
+.search{
+  margin-bottom:10px;
+}
+.search .form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  background-color: rgba(241, 241, 241, 0.7);
+  padding: 20px;
+  width: 1200px;
+  height: 100px;
+  max-width: calc(100% - 40px);
+  margin: 0 auto;
+}
+
+.search .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.search .form-group label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.search .form-group select {
+  padding: 5px;
+  font-size: 16px;
+  width: 200px;
+}
+
+.search .search-btn {
+  margin-top: 10px;
+  background-color: #ffd700;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.search .search-btn:hover {
+  background-color: #ffc700;
+}

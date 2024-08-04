@@ -1,0 +1,128 @@
+/* General Container */
+.product-details {
+  width: 100%;
+  max-width: 1200px;
+  margin: 70px auto 0;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+/* Product Image Section */
+.product-details-left {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.product-details-images {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product-details-images img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.product-details-images img.active {
+  border-color: black;
+}
+
+/* Product Info Section */
+.product-details-right {
+  flex: 1;
+}
+
+.product-details-info {
+  margin-bottom: 20px;
+}
+
+.product-details-info h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+
+.product-details-info p {
+  font-size: 1.5rem;
+  color: red;
+}
+
+/* Size Buttons */
+.product-details-buttons {
+  margin-bottom: 20px;
+}
+
+.product-size-btn {
+  display: inline-block;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1.1rem;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+
+.product-size-btn:hover {
+  border-color: black;
+}
+
+.product-size-btn:focus {
+  outline: none;
+  border-color: black;
+}
+
+/* Quantity Input */
+.product-details-quantity {
+  margin-bottom: 20px;
+}
+
+.product-quantity-input input {
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+}
+
+/* Add to Cart Button */
+.product-details-cart {
+  margin-top: 20px;
+}
+
+.add-to-cart-btn {
+  width: 100%;
+  height: 60px;
+  background-color: #fed700;
+  color: black;
+  font-weight: 800;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-to-cart-btn:hover {
+  color: white;
+}

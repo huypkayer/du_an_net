@@ -1,0 +1,81 @@
+.cards {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin: 0 0 10px;
+}
+
+.card p {
+  margin: 0;
+  font-size: 24px;
+}
+
+.percentage {
+  font-size: 14px;
+  color: #4CAF50;
+}
+
+.percentage i {
+  vertical-align: middle;
+}
+
+.charts {
+  margin-top: 20px;
+}
+
+.chart {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.orders {
+  margin-top: 20px;
+}
+
+.orders table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.orders th, .orders td {
+  padding: 15px;
+  text-align: left;
+}
+
+.orders th {
+  background-color: #E3F2FD;
+}
+
+.orders tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.status.delivered {
+  background-color: #4CAF50;
+}
+
+.status.pending {
+  background-color: #FFC107;
+}
+
+.status.cancelled {
+  background-color: #F44336;
+}

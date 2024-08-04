@@ -1,0 +1,57 @@
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+
+.sidebarHeader {
+  padding: 20px;
+  text-align: center;
+  background-color: #444;
+}
+
+/* Styles for user info */
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+
+.userImg {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+
+.sidebarMenu {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+
+.sidebarMenu li {
+  padding: 10px 20px;
+}
+
+
+.sidebarMenu a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  padding: 10px;
+}
+
+.sidebarMenu a:hover {
+  background-color: #555;
+}

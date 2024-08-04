@@ -1,0 +1,115 @@
+
+.mainContent {
+  margin-left: 250px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+}
+header h1{
+  font-weight:bold;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.formSection {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.formGroup {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+.formSection h2{
+  font-size:20px;
+  font-weight:bold;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button[type="submit"] {
+  margin-top: 10px;
+  color: white;
+  background-color: black;
+  padding: 10px;
+  font-size: 20px;
+}
+
+button[type="submit"]:hover{
+  background-color: #333;
+}
+
+button[type="button"] {
+  margin-right: 10px;
+}
+
+
+.tableSection {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tableSection h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.tableSection table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tableSection th, .tableSection td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tableSection th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.tableSection tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.tableSection img {
+  width: 100px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+}
